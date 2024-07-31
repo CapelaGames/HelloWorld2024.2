@@ -6,12 +6,7 @@ public class CircleController : MonoBehaviour
 {
     float speed = 200f;
     float jumpSpeed = 400f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-    // Update is called once per frame
+
     void Update()
     {
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
